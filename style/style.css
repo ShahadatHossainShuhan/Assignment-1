@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.font-inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+ 
+}
+.logo{
+width: 120px;
+}
+.btn{
+  background-color:#30B868 ;
+  border: none;
+  padding: 12.5px 16px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+ color: white;
+  cursor: pointer;
+
+}
+/* main styles */
+header{
+  background-color: #ffffff;
+
+}
+nav{
+  width: 71%;
+  max-width: 1600px;
+  display: flex;
+  margin: auto;
+  align-items: center;
+}
+nav .menu{
+  flex: 1;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  gap: 32px;
+  align-items: center;
+  
+}
+nav .menu a{
+  font-size:16px ;
+  color: #000000;
+  text-decoration: none;
+}
+.btn1 {
+  width: 120px;
+  display: flex;
+  /* text-align:right; */
+  justify-content: flex-end;
+
+}
